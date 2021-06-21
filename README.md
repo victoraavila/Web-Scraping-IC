@@ -1,7 +1,7 @@
 # Web-Scraping-IC
 The code available on this repository is intended to download the most recent version of the Padrão TISS documentation, which describes how health insurance plans data may be transferred digitally.<br />
 
-One of the advantages of this code is that it still works even with old versions of the **ANS** page. To check it out, try replacing the value of the **url** variable with [the link to this version from the Internet Archive](https://web.archive.org/web/20190717200124/http://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar).<br /> 
+One of the advantages of this code is that it still works even with old versions of the **ANS** page. To check it out, try replacing the value of the **url** variable with [the link to this version from the Internet Archive](https://web.archive.org/web/20190717200124/http://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar) (you will also need to comment out the banner closing loops).<br /> 
 <br />
 ## Requirements
 To properly run [**web-scraper.py**](https://github.com/victoraavila/Web-Scraping-IC/blob/main/web-scraper.py), you need to have the most recent version of **Mozilla Firefox** installed.<br />
