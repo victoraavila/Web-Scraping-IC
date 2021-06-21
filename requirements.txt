@@ -1,5 +1,2 @@
 requests2
-pandas
-lxml
-beautifulsoup4
 selenium

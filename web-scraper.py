@@ -1,9 +1,12 @@
 import gecko_config
+from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 import pdf_downloader
 
 # 1. Configuring Firefox automation with Selenium
-driver = webdriver.Firefox()
+options = Options()
+options.headless = True
+driver = webdriver.Firefox(options = options)
 
 # 2. Getting HTML content from the URL
 url = "http://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar"

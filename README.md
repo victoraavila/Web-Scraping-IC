@@ -25,4 +25,14 @@ $   python3 web-scraper.py
 ```
 <br />
 
+By default it runs in **Headless Mode**, i.e. without Firefox graphical interface. This can be changed by setting ***options.headless = False***:<br />
+<br />
+```python
+    options = Options()
+    options.headless = False
+    driver = webdriver.Firefox(options = options)
+```
+<br />
+
+
 After that, a .pdf file named **Componente Organizacional.pdf** with all the content will be downloaded and saved into the project root folder.
