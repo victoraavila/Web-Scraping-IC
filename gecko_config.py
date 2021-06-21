@@ -2,6 +2,10 @@
 import os
 import platform
 
+if platform.system() == "Windows":
+    path_to_geckodriver = os.path.abspath('Webdriver Proxy/Windows')
+    os.environ["PATH"] += os.pathsep + path_to_geckodriver
+
 ## Add 'export PATH=$PATH:geckodriver' line at the end of .bashrc only if this OS is Linux
 if platform.system() == "Linux":
     path_to_geckodriver = os.path.abspath('Webdriver Proxy/Linux')
