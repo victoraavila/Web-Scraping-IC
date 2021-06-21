@@ -13,4 +13,4 @@ $   pip3 install -r requirements.txt
 ```
 <br />
 
-Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously.
+Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously. Linux users doesn't need to install geckodriver manually.
