@@ -6,11 +6,11 @@ To properly run [**web-scraper.py**](https://github.com/victoraavila/Web-Scrapin
 
 You also need to have any version greater than **Python 3.6** installed.
 
-The necessary Python modules can be sucessfully installed by typing the following in your bash terminal: <br />
+The necessary Python modules can be successfully installed by typing the following in your bash terminal: <br />
 <br />
 ```
 $   pip3 install -r requirements.txt
 ```
 <br />
 
-Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously. Linux users doesn't need to install geckodriver manually.
+Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously. Linux users don't need to install geckodriver manually.

@@ -13,9 +13,12 @@ driver.get(url)
 banner_closing_available = False
 while banner_closing_available == False:
     try:
-        driver.find_element_by_xpath(
-            '''/html/body/div[5]/div/div[2]/div/div/div/div/div[1]/button/span'''
-        ).click()
+        driver.find_element_by_class_name("close").click()
         banner_closing_available = True
     except Exception as e:
         pass
+
+# 4. Opening page of the most recent Padrão TISS available
+driver.find_element_by_class_name("alert-link").click()
+  
+
