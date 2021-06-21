@@ -21,6 +21,8 @@ while banner_closing_available == False:
     except Exception as e:
         pass
 
+print("First page reached...")
+
 # 4. Opening the page of the most recent Padrão TISS available
 driver.find_element_by_class_name("alert-link").click()
   
@@ -32,6 +34,8 @@ while banner_closing_available == False:
         banner_closing_available = True
     except Exception as e:
         pass
+
+print("Second page reached...")
 
 # 6. Clicking the button to open the Componente Organizacional file with Firefox
 driver.find_element_by_xpath(

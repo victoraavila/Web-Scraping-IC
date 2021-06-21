@@ -6,3 +6,5 @@ def download_pdf_from_url(url):
 
     with open("Componente Organizacional.pdf", "wb") as file:
         file.write(response.content)
+
+    print("PDF downloaded to project root folder.")
