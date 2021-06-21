@@ -2,9 +2,9 @@
 import os
 import platform
 
-## Add 'export geckodriver' line at the end of .bashrc only if this OS is Linux
+## Add 'export PATH=$PATH:geckodriver' line at the end of .bashrc only if this OS is Linux
 if platform.system() == "Linux":
-    path_to_geckodriver = os.path.abspath('geckodriver-v0.29.1-linux64')
+    path_to_geckodriver = os.path.abspath('Webdriver Proxy/Linux')
     path_to_geckodriver = '"' + path_to_geckodriver + '"'
 
     file_to_read = open(os.path.join(os.getenv('HOME'), '.bashrc'), 'r')
