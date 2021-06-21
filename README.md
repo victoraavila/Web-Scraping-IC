@@ -15,7 +15,7 @@ $   pip3 install -r requirements.txt
 ```
 <br />
 
-There is no need to run the executables located inside the **Webdriver Proxy**. The will run automatically.
+There is no need to run the executables located inside the **Webdriver Proxy**. They will run automatically.
 <br />
 ## Running the program
 After setting up all the requirements mentioned above, to run the Web Scraper you may access the root folder of this repository on a bash terminal and type in the following command:<br />
