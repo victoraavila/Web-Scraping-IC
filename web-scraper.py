@@ -1,6 +1,6 @@
 import gecko_config
-
 from selenium import webdriver
+import pdf_downloader
 
 # 1. Configuring Firefox automation with Selenium
 driver = webdriver.Firefox()
@@ -34,3 +34,6 @@ while banner_closing_available == False:
 driver.find_element_by_xpath(
     "//div[@class='table-responsive']//table//tbody//tr[1]//td[3]//a"
     ).click()
+
+# 7. Downloading the .pdf file available in the current link
+pdf_downloader.download_pdf_from_url(driver.current_url)
