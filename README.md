@@ -13,4 +13,12 @@ $   pip3 install -r requirements.txt
 ```
 <br />
 
-Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously. Linux users don't need to install geckodriver manually.
+Finally, if you are using **Windows**, you have to run the **geckodriver.exe** file located in 'Webdriver Proxy/Windows' to install it. This is necessary to execute Firefox autonomously. Linux users don't need to install geckodriver manually.<br />
+<br />
+## Running the program
+After setting up all the requirements mentioned above, to run the Web Scraper you may access the root folder of this repository on a bash terminal and type the following command:<br />
+<br />
+```
+$   python3 web-scraper.py
+```
+<br />
